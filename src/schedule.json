@@ -1,0 +1,67 @@
+[
+    {
+        "time": "08:00",
+        "track1": "Registration",
+        "track2": "Registration"
+    },
+    {
+        "time": "09:00",
+        "track1": "Opening Address",
+        "track2": "Opening Address (Bytemark Track)"
+    },
+    {
+        "time": "09:30",
+        "track1": "A Developer’s Survival Handbook – Ciaran McNulty",
+        "track2": "Beyond PSR-7: Design Your Own Middleware Using the Instruction Bus – Stuart Herbert"
+    },
+    {
+        "time": "10:30",
+        "track1": "☕️ Coffee Break",
+        "track2": "☕️ Coffee Break"
+    },
+    {
+        "time": "10:50",
+        "track1": "Git's Guts – Sam Burns",
+        "track2": "What’s in a Name? – Nicola Aitken"
+    },
+    {
+        "time": "11:50",
+        "track1": "The Why’s and the How’s of Asking Users Who They Are – Chad Gowler",
+        "track2": "Protect Your API With oAuth2 – Rob Allen"
+    },
+    {
+        "time": "12:50",
+        "track1": "🍲 Lunch",
+        "track2": "🍲 Lunch"
+    },
+    {
+        "time": "13:50",
+        "track1": "Flipping Out With Feature Flags and Toggles – Michael Cullum",
+        "track2": "A Drupal 101, but More Than Just the Code... – Rachel Lawson"
+    },
+    {
+        "time": "14:50",
+        "track1": "MySQL 8 – David Stokes",
+        "track2": "HTML5 APIs You’ve Never Heard Of – Drew McLellan"
+    },
+    {
+        "time": "15:50",
+        "track1": "☕️ Coffee Break",
+        "track2": "☕️ Coffee Break"
+    },
+    {
+        "time": "16:10",
+        "track1": "Expect the Un-Expected: How to Handle Errors Gracefully – Bastian Hoffman",
+        "track2": "How to Effectively Grow a Development Team – Jeroen V. D. Gulik"
+    },
+    {
+        "time": "17:10",
+        "track1": "Keynote: “Writing Code That Lasts”… or Writing Code You Won’t Hate Tomorrow - Rafael Dohms",
+        "track2": "Bytemark Track Keynote: “Writing Code That Lasts”… or Writing Code You Won’t Hate Tomorrow - Rafael Dohms"
+    },
+    {
+        "time": "18:00",
+        "track1": "Mad Hatter’s Tea Party",
+        "track2": "Mad Hatter’s Tea Party"
+    }
+]
