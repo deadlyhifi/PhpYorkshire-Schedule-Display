@@ -3,11 +3,11 @@ import * as React from 'react'
 export class TimeSlot extends React.Component {
   render () {
     return (
-      <tr>
-        <td>{this.props.track1}</td>
-        <td>{this.props.time}</td>
-        <td>{this.props.track2}</td>
-      </tr>
+      <div className='schedule--row'>
+        <div className='track track1'>{this.props.track1}</div>
+        <div className='time'>{this.props.time}</div>
+        <div className='track track2'>{this.props.track2}</div>
+      </div>
     )
   }
 }

@@ -10,7 +10,6 @@ export class Schedule extends React.Component {
     const hours = this.props.time.getHours()
     const mins = this.props.time.getMinutes()
     const currSecs = (hours * 60 * 60) + (mins * 60)
-    let currTalk = 0
 
     // find the current slot
     for (var i = 1; i < this.props.data.length; i++) {
@@ -18,14 +17,11 @@ export class Schedule extends React.Component {
       const slotSecs = (split[0] * 60 * 60) + (split[1] * 60)
 
       if (slotSecs > currSecs) {
-        currTalk = i > 1 ? i - 1 : 0
         break
       }
-      // Last slot of the day
-      currTalk = i
     }
 
-    return [this.props.data[currTalk], this.props.data[currTalk + 1]].filter(slot => slot !== undefined)
+    return this.props.data.slice(i - 1).filter(slot => slot !== undefined)
   }
 
   render () {
@@ -41,7 +37,17 @@ export class Schedule extends React.Component {
       )
     })
 
-    return <table><tbody>{timeSlots}</tbody></table>
+    return (
+      <div>
+        <div className='schedule--track-titles'>
+          <div className='track1'>Bytemark Track</div>
+          <div className='track2'>Track 2</div>
+        </div>
+        <div className='schedule'>
+          {timeSlots}
+        </div>
+      </div>
+    )
   }
 }
 
