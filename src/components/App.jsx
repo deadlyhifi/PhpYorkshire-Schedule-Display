@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { Clock } from './Clock'
+import { Header } from './Header'
 import { Schedule } from './Schedule'
 
 const schedule = require('./../schedule.json')
@@ -7,7 +7,7 @@ const schedule = require('./../schedule.json')
 export class App extends React.Component {
   constructor (props) {
     super(props)
-    this.state = { date: new Date() }
+    this.state = { time: new Date() }
   }
 
   componentDidMount () {
@@ -23,15 +23,15 @@ export class App extends React.Component {
 
   tick () {
     this.setState({
-      date: new Date()
+      time: new Date()
     })
   }
 
   render () {
     return (
       <div>
-        <Clock date={this.state.date} />
-        <Schedule data={schedule} time={this.state.date} />
+        <Header time={this.state.time} />
+        <Schedule data={schedule} time={this.state.time} />
       </div>
     )
   }

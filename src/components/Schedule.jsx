@@ -39,10 +39,6 @@ export class Schedule extends React.Component {
 
     return (
       <div>
-        <div className='schedule--track-titles'>
-          <div className='track1'>Bytemark Track</div>
-          <div className='track2'>Track 2</div>
-        </div>
         <div className='schedule'>
           {timeSlots}
         </div>
@@ -53,5 +49,5 @@ export class Schedule extends React.Component {
 
 Schedule.propTypes = {
   data: React.PropTypes.array.isRequired,
-  time: React.PropTypes.object
+  time: React.PropTypes.object.isRequired
 }

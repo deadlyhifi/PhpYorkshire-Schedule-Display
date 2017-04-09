@@ -13,53 +13,13 @@
             font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
             font-size: 4.0vh;
         }
-        .header {
-            position: fixed;
-            bottom: 0;
-            width: 99%;
-            padding: 1%;
-            min-height: 74px;
-            border-bottom: 1px solid;
-            color: #0083c9;
-            background: white url(img/phpyorkshire-logo-inline.png) no-repeat center left;
-            display: flex;
-            flex-direction: column;
-        }
-        .header > div {
-            flex: 1;
-            text-align: right;
-            padding-right: 1%;
-        }
-        .header .clock--display {
-            font-weight: bold;
-        }
 
-        .schedule--track-titles {
-            display: flex;
-            border-bottom: 1px solid #4ea1ce;
-        }
-        .schedule--track-titles > div {
-            flex: 1;
-            text-align: center;
-            padding: 3%;
-        }
-        .schedule--track-titles > div:first-of-type {
-            border-right: 1px solid #4ea1ce;
-
-        }
-        .schedule--track-titles .track1 {
-            font-size: 0;
-            background: url(img/bytemark-logo.png) no-repeat center center;
-            background-size: auto 6.0vh;
-        }
         .schedule--row {
             display: flex;
             justify-content: space-between;
             border-bottom: 1px solid #4ea1ce;
         }
-        .schedule--row:first-of-type {
-            background: #333;
-        }
+
         .schedule--row .track {
             width: 45%;
             padding: 2%;
@@ -69,12 +29,21 @@
             padding: 2%;
             text-align: center;
         }
+
         .schedule--row .track1 {
             text-align: right;
             border-right: 1px solid #4ea1ce;
         }
         .schedule--row .track2 {
             border-left: 1px solid #4ea1ce;
+        }
+
+        .schedule--row__titles {
+            border-bottom-width: 3px;
+        }
+
+        .schedule .schedule--row:first-of-type {
+            background: #333;
         }
     </style>
 </head>
