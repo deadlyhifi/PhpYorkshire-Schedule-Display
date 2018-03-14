@@ -1,4 +1,5 @@
 import * as React from 'react'
+import PropTypes from 'prop-types'
 import { TimeSlot } from './TimeSlot'
 
 export class Schedule extends React.Component {
@@ -12,7 +13,8 @@ export class Schedule extends React.Component {
     const currSecs = (hours * 60 * 60) + (mins * 60)
 
     // find the current slot
-    for (var i = 1; i < this.props.data.length; i++) {
+    let i
+    for (i = 1; i < this.props.data.length; i++) {
       const split = this.props.data[i].time.split(':')
       const slotSecs = (split[0] * 60 * 60) + (split[1] * 60)
 
@@ -48,6 +50,6 @@ export class Schedule extends React.Component {
 }
 
 Schedule.propTypes = {
-  data: React.PropTypes.array.isRequired,
-  time: React.PropTypes.object.isRequired
+  data: PropTypes.array.isRequired,
+  time: PropTypes.object.isRequired
 }

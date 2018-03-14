@@ -11,27 +11,20 @@ module.exports = {
     path: path.join(__dirname, '/dist'),
     publicPath: '/dist/'
   },
-
+  mode: inProduction ? 'production' : 'development',
   devtool: 'source-map',
-
   resolve: {
     extensions: ['.js', '.jsx', '.json']
   },
-
   module: {
     rules: [
       {
         test: /\.jsx?$/,
         loader: 'babel-loader',
         exclude: /node_modules/
-      },
-      {
-        test: /\.json$/,
-        loader: 'json-loader'
       }
     ]
   },
-
   plugins: [
     new CleanWebpackPlugin(['dist'], {
       root: __dirname,
@@ -39,7 +32,6 @@ module.exports = {
       watch: true
     })
   ],
-
   devServer: {
     compress: true
   }

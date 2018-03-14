@@ -1,4 +1,5 @@
 import * as React from 'react'
+import PropTypes from 'prop-types'
 
 export class TimeSlot extends React.Component {
   render () {
@@ -13,7 +14,7 @@ export class TimeSlot extends React.Component {
 }
 
 TimeSlot.propTypes = {
-  time: React.PropTypes.string.isRequired,
-  track1: React.PropTypes.string.isRequired,
-  track2: React.PropTypes.string.isRequired
+  time: PropTypes.string.isRequired,
+  track1: PropTypes.string.isRequired,
+  track2: PropTypes.string.isRequired
 }

@@ -4,4 +4,10 @@ This was originally made for PHP Yorkshire 2017 to show a live updating display 
 
 The schedule is set in `src/schedule.json`.
 
-It's made in React JS. Do a `yarn install` or `npm install` and an `npm start` to see it in action.
+It’s made in React JS. Do an `npm install` and an `npm start` to see it in action.
+
+## Changelog
+
+2.0 - PHP Yorkshire 2018
+
+1.0 - PHP Yorkshire 2017

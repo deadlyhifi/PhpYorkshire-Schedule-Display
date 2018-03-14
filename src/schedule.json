@@ -11,8 +11,8 @@
     },
     {
         "time": "09:30",
-        "track1": "A Developer’s Survival Handbook – Ciaran McNulty",
-        "track2": "Beyond PSR-7: Design Your Own Middleware Using the Instruction Bus – Stuart Herbert"
+        "track1": "SQL, NoSQL and Beyond – Lorna Mitchell",
+        "track2": "Building Text Adventures and other CLI Apps in PHP – Tim Nash"
     },
     {
         "time": "10:30",
@@ -21,13 +21,13 @@
     },
     {
         "time": "10:50",
-        "track1": "Git's Guts – Sam Burns",
-        "track2": "What’s in a Name? – Nicola Aitken"
+        "track1": "Privacy by Design – Heather Burns",
+        "track2": "State in a Stateless World – Luka Muzinic"
     },
     {
         "time": "11:50",
-        "track1": "The Why’s and the How’s of Asking Users Who They Are – Chad Gowler",
-        "track2": "Protect Your API With oAuth2 – Rob Allen"
+        "track1": "Technically DDD – Pim Elshoff",
+        "track2": "Serving PHP Happily – Jenny Wong"
     },
     {
         "time": "12:50",
@@ -36,13 +36,13 @@
     },
     {
         "time": "13:50",
-        "track1": "Flipping Out With Feature Flags and Toggles – Michael Cullum",
-        "track2": "A Drupal 101, but More Than Just the Code... – Rachel Lawson"
+        "track1": "Looking After Your Mental Health, a Guide for Software Developers – Mark Railton",
+        "track2": "Websites at the Speed of Light – Luis Ferro"
     },
     {
         "time": "14:50",
-        "track1": "MySQL 8 – David Stokes",
-        "track2": "HTML5 APIs You’ve Never Heard Of – Drew McLellan"
+        "track1": "The Security Code Review guide – Nicola Pietroluongo",
+        "track2": "Being a Remote Developer – Miro Svrtan"
     },
     {
         "time": "15:50",
@@ -51,17 +51,17 @@
     },
     {
         "time": "16:10",
-        "track1": "Expect the Un-Expected: How to Handle Errors Gracefully – Bastian Hoffman",
-        "track2": "How to Effectively Grow a Development Team – Jeroen V. D. Gulik"
+        "track1": "Behat Best Practices – Ciaran McNulty",
+        "track2": "Moving Towards Better Coding Standards – Scott Dutton"
     },
     {
         "time": "17:10",
-        "track1": "Keynote: “Writing Code That Lasts”… or Writing Code You Won’t Hate Tomorrow - Rafael Dohms",
+        "track1": "Keynote: Introduction to Cynefin – Liz Keogh",
         "track2": "~"
     },
     {
         "time": "18:00",
-        "track1": "Mad Hatter’s Tea Party",
-        "track2": "Mad Hatter’s Tea Party"
+        "track1": "🎉 After Party 🎉",
+        "track2": "🎉 After Party 🎉"
     }
 ]
