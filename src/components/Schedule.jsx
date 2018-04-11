@@ -4,26 +4,39 @@ import { TimeSlot } from './TimeSlot'
 
 export class Schedule extends React.Component {
   upcomingSlots () {
-    if (!this.props.time) {
-      return this.props.data
-    }
-
     const hours = this.props.time.getHours()
     const mins = this.props.time.getMinutes()
     const currSecs = (hours * 60 * 60) + (mins * 60)
 
-    // find the current slot
-    let i
-    for (i = 1; i < this.props.data.length; i++) {
-      const split = this.props.data[i].time.split(':')
-      const slotSecs = (split[0] * 60 * 60) + (split[1] * 60)
+    return this.props.data.map((item, index) => {
+      const curSplit = item.time.split(':')
+      const curSlotStart = (curSplit[0] * 60 * 60) + (curSplit[1] * 60)
 
-      if (slotSecs > currSecs) {
-        break
+      let nextSlotStart = 86400 // end of day
+      if (!(this.props.data.length - 1 === index)) {
+        const nextSplit = this.props.data[index + 1].time.split(':')
+        nextSlotStart = (nextSplit[0] * 60 * 60) + (nextSplit[1] * 60)
       }
-    }
 
-    return this.props.data.slice(i - 1).filter(slot => slot !== undefined)
+      if (currSecs >= curSlotStart && currSecs < nextSlotStart) {
+        return {
+          ...item,
+          style: 'active'
+        }
+      }
+
+      if (currSecs < nextSlotStart) {
+        return {
+          ...item,
+          style: 'future'
+        }
+      }
+
+      return {
+        ...item,
+        style: 'inactive'
+      }
+    })
   }
 
   render () {
@@ -32,6 +45,7 @@ export class Schedule extends React.Component {
       timeSlots.push(
         <TimeSlot
           key={index}
+          style={slot.style}
           time={slot.time}
           track1={slot.track1}
           track2={slot.track2}

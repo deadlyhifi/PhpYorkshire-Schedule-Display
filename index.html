@@ -54,7 +54,11 @@
             font-weight: bold;
         }
 
-        .schedule .schedule--row:first-of-type {
+        .schedule .schedule--row.inactive {
+            display: none;
+        }
+
+        .schedule .schedule--row.active {
             background: #333;
         }
     </style>
