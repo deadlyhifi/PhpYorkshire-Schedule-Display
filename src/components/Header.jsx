@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 export class Header extends React.Component {
   render () {
     let mins = this.props.time.getMinutes()
-    mins = mins < 10 ? '0' : '' + mins
+    mins = mins < 10 ? '0' + mins : mins
 
     return (
       <div className='schedule--row schedule--row__titles'>
