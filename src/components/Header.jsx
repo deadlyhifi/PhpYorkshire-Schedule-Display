@@ -8,9 +8,11 @@ export class Header extends React.Component {
 
     return (
       <div className='schedule--row schedule--row__titles'>
-        <div className='track track1'>Bytemark Track</div>
+        <div className='track track1'>Track 1</div>
         <div className='time'>
-          {this.props.time.getHours()}<span className='time__divider'>:</span>{mins}
+          {this.props.time.getHours()}
+          <span className='time__divider'>:</span>
+          {mins}
         </div>
         <div className='track track2'>Track 2</div>
       </div>

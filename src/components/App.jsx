@@ -11,10 +11,7 @@ export class App extends React.Component {
   }
 
   componentDidMount () {
-    this.timerID = setInterval(
-      () => this.tick(),
-      1000
-    )
+    this.timerID = setInterval(() => this.tick(), 1000)
   }
 
   componentWillUnmount () {

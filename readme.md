@@ -8,6 +8,8 @@ It’s made in React JS. Do an `npm install` and an `npm start` to see it in act
 
 ## Changelog
 
+3.0 - PHP Yorkshire 2019
+
 2.0 - PHP Yorkshire 2018
 
 1.0 - PHP Yorkshire 2017

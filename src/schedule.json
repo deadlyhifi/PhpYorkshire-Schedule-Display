@@ -1,67 +1,67 @@
 [
-    {
-        "time": "08:00",
-        "track1": "Registration",
-        "track2": "Registration"
-    },
-    {
-        "time": "09:00",
-        "track1": "Opening Address",
-        "track2": "~"
-    },
-    {
-        "time": "09:30",
-        "track1": "SQL, NoSQL and Beyond – Lorna Mitchell",
-        "track2": "Building Text Adventures and other CLI Apps in PHP – Tim Nash"
-    },
-    {
-        "time": "10:30",
-        "track1": "☕️ Coffee Break",
-        "track2": "☕️ Coffee Break"
-    },
-    {
-        "time": "10:50",
-        "track1": "Privacy by Design – Heather Burns",
-        "track2": "State in a Stateless World – Luka Muzinic"
-    },
-    {
-        "time": "11:50",
-        "track1": "Technically DDD – Pim Elshoff",
-        "track2": "Serving PHP Happily – Jenny Wong"
-    },
-    {
-        "time": "12:50",
-        "track1": "🍲 Lunch",
-        "track2": "🍲 Lunch"
-    },
-    {
-        "time": "13:50",
-        "track1": "Looking After Your Mental Health, a Guide for Software Developers – Mark Railton",
-        "track2": "Websites at the Speed of Light – Luis Ferro"
-    },
-    {
-        "time": "14:50",
-        "track1": "The Security Code Review guide – Nicola Pietroluongo",
-        "track2": "Being a Remote Developer – Miro Svrtan"
-    },
-    {
-        "time": "15:50",
-        "track1": "☕️ Coffee Break",
-        "track2": "☕️ Coffee Break"
-    },
-    {
-        "time": "16:10",
-        "track1": "Behat Best Practices – Ciaran McNulty",
-        "track2": "Moving Towards Better Coding Standards – Scott Dutton"
-    },
-    {
-        "time": "17:10",
-        "track1": "Keynote: Introduction to Cynefin – Liz Keogh",
-        "track2": "~"
-    },
-    {
-        "time": "18:00",
-        "track1": "🎉 After Party 🎉",
-        "track2": "🎉 After Party 🎉"
-    }
+  {
+    "time": "08:00",
+    "track1": "Registration",
+    "track2": "Registration"
+  },
+  {
+    "time": "09:00",
+    "track1": "Opening Address",
+    "track2": "~"
+  },
+  {
+    "time": "09:30",
+    "track1": "A Meritocracy of Pull Requests – Lorna Mitchell",
+    "track2": "An introduction to Graph Databases in PHP, using Neo4j – Michelle Sanver"
+  },
+  {
+    "time": "10:20",
+    "track1": "☕️ Break",
+    "track2": "☕️ Break"
+  },
+  {
+    "time": "10:40",
+    "track1": "Top 10 PHP Classic Traps – Damien Seguy",
+    "track2": "Build your own Neural Network, with PHP! – Vitor Brandao"
+  },
+  {
+    "time": "11:40",
+    "track1": "Testing Legacy Code & Safe Refactoring – Katy Ereira",
+    "track2": "Building a cloud-friendly application – Larry Garfield"
+  },
+  {
+    "time": "12:30",
+    "track1": "🍲 Lunch",
+    "track2": "🍲 Lunch"
+  },
+  {
+    "time": "13:50",
+    "track1": "The Big “Why Equal doesn't Equal” Quiz – Juliette Reinders Folmer",
+    "track2": "~"
+  },
+  {
+    "time": "14:50",
+    "track1": "Building Modular Architectures – Asmir Mustafic",
+    "track2": "API Standards 2.0 – Michael Heap"
+  },
+  {
+    "time": "15:40",
+    "track1": "☕️ Break",
+    "track2": "☕️ Break"
+  },
+  {
+    "time": "16:00",
+    "track1": "Thinker, Tester, Lawyer, Spy – Daniel Shaw",
+    "track2": "SOCcing: Responding to a cyber incident – Clinton Ingrams"
+  },
+  {
+    "time": "17:00",
+    "track1": "Free Software: It's not about the license – Larry Garfield",
+    "track2": "~"
+  },
+  {
+    "time": "18:00",
+    "track1": "🎉 After Party 🎉",
+    "track2": "🎉 After Party 🎉"
+  }
 ]
